@@ -1,3 +1,12 @@
+# Object-Detector
+# This project recognizes any green object when placed in front of the camera.
+# In this project, two libraries are used, first one is opencv and the other one is numpy.
+# The desired result is shown with the help of three frames namely, mask, maskOpen and maskClose.
+# In mask frame, the green object is detected but the noise in the frame is very high which is reduced
+# in maskOpen frame and more reduced in maskClose frame. Moreover, the green section of any object which comes
+# in front of the camera is outlined by a blue line whicb makes it more convenient to recognize the green
+# section present in the camera frame.
+
 import cv2
 import numpy as np
 
